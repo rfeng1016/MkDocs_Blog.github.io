@@ -1,0 +1,101 @@
+# 基本配置
+site_name: MapleYee の Blog
+site_description: A brief description of my project.
+site_author: Author Name
+site_url: https://example.com
+
+# 使用 MkDocs Material 主题
+theme:
+  name: material
+  language: zh
+#  logo: assets/images/logo.png
+  favicon: assets/images/favicon.ico
+
+  # 主题特定选项
+  features:
+    - navigation.tabs
+    - navigation.top
+  palette:
+    primary: indigo
+    accent: pink
+
+# 插件
+#plugins:
+#  - search
+#  - minify:
+#      minify_html: true
+
+# Google Analytics（可选）
+#google_analytics:
+#  - UA-XXXXX-X
+#  - auto
+
+# 版权和仓库链接（可选）
+#repo_name: 'my-repo'
+#repo_url: 'https://github.com/username/my-repo'
+#copyright: 'Copyright © 2021 Your Name'
+
+# 导航配置
+#nav:
+#  - Home: index.md
+#  - About: about.md
+#  - User Guide:
+#      - Introduction: user-guide/introduction.md
+#      - Installation: user-guide/installation.md
+#  - API Reference: api-reference.md
+
+
+# 高级配置
+# 自定义颜色
+#theme:
+#  palette:
+#    - scheme: default      # "default" 或 "slate"
+#    - primary: 'indigo'    # 主色
+#    - accent: 'indigo'     # 强调色
+#    - toggle:
+#        icon: material/toggle-switch
+#        name: Switch to dark mode
+
+# 字体配置
+#  font:
+#    text: 'Roboto'
+#    code: 'Roboto Mono'
+
+# 图标
+#  icon:
+#    logo: material/library-books
+#    favicon: material/favicon
+
+# 特性
+#  features:
+#    - navigation.tabs
+#    - navigation.tabs.sticky
+#    - navigation.top
+#    - search.suggest
+#    - search.highlight
+ #   - search.share
+
+# 插件和扩展
+#plugins:
+#  - search
+#  - minify:
+#      minify_html: true
+#  - social:
+#      twitter: yourtwitter
+#      github: yourgithub
+#  - git-revision-date-localized:
+#      type: timeago
+
+# 其他配置
+#markdown_extensions:
+#  - admonition
+#  - codehilite:
+#      guess_lang: false
+#  - toc:
+#      permalink: true
+
+#extra_css:
+#  - assets/css/custom.css
+
+#extra_javascript:
+#  - assets/js/custom.js
